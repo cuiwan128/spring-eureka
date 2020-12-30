@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-movie-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-movie/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery-eureka-ha/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-file-upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-getaway-zuul-9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-getaway-zuul-9002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-getaway-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-session-client-001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-session-client-002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-session-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatis-plus/src/main/java" charset="UTF-8" />
+  </component>
+</project>

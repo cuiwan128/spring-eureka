@@ -1,0 +1,6 @@
+org\example\entity\User.class
+org\example\handler\MyMetaObjectHandler.class
+org\example\mapper\UserMapper.class
+org\example\EurekaApplication1.class
+org\example\interceptor\SqlTimeInterceptor.class
+org\example\config\MyBatisPlusConfig.class

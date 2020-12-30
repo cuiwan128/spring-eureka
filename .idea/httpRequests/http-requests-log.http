@@ -1,0 +1,40 @@
+POST http://localhost:7001/movie/getByName3?id=1144&username=zhangsan133
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-18T101859.405.json
+
+###
+
+POST http://localhost:7001/movie/getByName3?id=1144&username=zhangsan133
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-18T101858.405.json
+
+###
+
+POST http://localhost:7001/movie/getByName3?id=1144&username=zhangsan133
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-18T101857.405.json
+
+###
+
+POST http://localhost:7001/movie/getByName3?id=1144&username=zhangsan133
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-18T101839.405.json
+
+###
+
+POST http://localhost:8001/movie/getByName3?id=1144&username=zhangsan133
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-18T101821.404.json
+
+###
+

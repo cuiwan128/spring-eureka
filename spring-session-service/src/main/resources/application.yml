@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: spring-session-service
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: h2
+    schema: classpath:schema.sql
+    data: classpath:data.sql
+  session:
+    store-type: redis
+    redis:
+      flush-mode: on_save
+  redis:
+    host: localhost
+    port: 6379
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+server:
+  port: 8000
+

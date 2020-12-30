@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-discovery-eureka-ha" />
+        <module name="springboot-mybatis-plus" />
+        <module name="microservice-getaway-zuul-9002" />
+        <module name="microservice-getaway-zuul-9001" />
+        <module name="microservice-consumer-movie-feign" />
+        <module name="spring-session-client-001" />
+        <module name="microservice-file-upload" />
+        <module name="spring-session-service" />
+        <module name="microservice-provider-user" />
+        <module name="microservice-consumer-movie-hystrix" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-getaway-zuul" />
+        <module name="spring-session-client-002" />
+        <module name="microservice-consumer-movie" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-getaway-zuul-9001 (1)" target="1.8" />
+      <module name="springcloud-eureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

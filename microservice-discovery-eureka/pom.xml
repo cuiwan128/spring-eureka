@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>microservice-discovery-eureka</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- 服务打包方式 -->
+    <packaging>jar</packaging>
+
+
+    <!-- 引入 springboot的依赖 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.9.RELEASE</version>
+    </parent>
+
+    <!-- 设置 编码格式喝jdk版本 -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <!-- 引入eureka 依赖 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+        <!-- actuator监控 依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <!-- 引入 spring cloud的依赖 -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Edgware.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!-- 添加spring-boot的maver插件 -->
+    <!-- 打包项目 推送docker私库  mvn clean package docker:build -DpushImage -->
+    <!-- 1.开启远程访问：vi /usr/lib/systemd/system/docker.service 在ExecStart=/usr/bin/dockerd 后面增加一行： -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock    -->
+    <!-- 2.开启远程访问： vi /etc/sysconfig/docker 添加 other_args="-H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock" -->
+    <!-- 3.加载docker.service： systemctl daemon-reload -->
+    <!-- 5.重启docker： service docker restart -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <!-- 添加docker-maven插件 -->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.2.2</version>
+                <configuration>
+                    <dockerHost>http://192.168.0.120:2375</dockerHost>
+                    <imageName>192.168.0.120:5000/${project.artifactId}:${project.version}</imageName>
+                    <forceTags>true</forceTags>
+                    <baseImage>java</baseImage>
+                    <entryPoint>["java","-jar","${project.build.finalName}.jar"]</entryPoint>
+                    <!-- 这里是复制 jar 包到 docker 容器指定目录配置 -->
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+
+
+
+</project>
