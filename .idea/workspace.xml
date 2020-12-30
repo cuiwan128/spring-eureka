@@ -7,7 +7,131 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abd04a69-291a-4670-8475-2d40005832f6" name="Default Changelist" comment="" />
+    <list default="true" id="abd04a69-291a-4670-8475-2d40005832f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/target/classes/org/example/EurekaApplication2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/target/classes/org/example/config/RibbonConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/target/classes/org/example/config/TestConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/target/classes/org/example/controller/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/target/classes/org/example/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/target/classes/org/example/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-hystrix/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-hystrix/target/classes/org/example/EurekaApplicationHystrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-hystrix/target/classes/org/example/config/RibbonConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-hystrix/target/classes/org/example/config/TestConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-hystrix/target/classes/org/example/controller/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-hystrix/target/classes/org/example/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-hystrix/target/classes/org/example/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/classes/org/example/EurekaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/docker/microservice-discovery-eureka-ha-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/microservice-discovery-eureka-ha-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/microservice-discovery-eureka-ha-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/test-classes/image_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/classes/org/example/EurekaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/docker/microservice-discovery-eureka-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/microservice-discovery-eureka-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/microservice-discovery-eureka-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/test-classes/image_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-file-upload/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-file-upload/target/classes/org/example/FileUploadApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-file-upload/target/classes/org/example/controller/FileUploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul-9001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul-9001/target/classes/org/example/ZuulApplication9001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul-9002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul-9002/target/classes/org/example/ZuulApplication9002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul/target/classes/org/example/ZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul/target/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul/target/docker/microservice-getaway-zuul-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul/target/microservice-getaway-zuul-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul/target/microservice-getaway-zuul-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-getaway-zuul/target/test-classes/image_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-hystrix-dashboard/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-hystrix-dashboard/target/classes/org/example/HystrixDashboardApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/org/example/EurekaApplication1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/org/example/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/org/example/dao/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/org/example/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/docker/microservice-provider-user-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/microservice-provider-user-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/microservice-provider-user-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/test-classes/image_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-001/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-001/target/classes/org/example/EurekaApplication1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-001/target/classes/org/example/config/RedisSessionConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-001/target/classes/org/example/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-001/target/classes/org/example/dao/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-001/target/classes/org/example/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-001/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-002/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-002/target/classes/org/example/EurekaApplication1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-002/target/classes/org/example/config/RedisSessionConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-002/target/classes/org/example/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-002/target/classes/org/example/dao/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-002/target/classes/org/example/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-client-002/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-service/target/classes/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-service/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-service/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-service/target/classes/org/example/EurekaApplication1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-service/target/classes/org/example/config/RedisSessionConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-service/target/classes/org/example/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-service/target/classes/org/example/dao/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-service/target/classes/org/example/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-session-service/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/org/example/EurekaApplication1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/org/example/config/MyBatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/org/example/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/org/example/entity/Items.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/org/example/entity/Orderdetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/org/example/entity/Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/org/example/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/org/example/handler/MyMetaObjectHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/org/example/interceptor/SqlTimeInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/classes/org/example/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/springboot-mybatis-plus-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/springboot-mybatis-plus-1.0.1.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatis-plus/target/test-classes/org/example/UserMapperTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +163,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -48,6 +175,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1lmz81D8g7fTQrEHsivgWSB4Pw4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -66,6 +194,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-mybatis-plus/src/main/resources" />
@@ -432,11 +561,88 @@
       <workItem from="1609161824549" duration="7199000" />
       <workItem from="1609170615354" duration="268000" />
       <workItem from="1609210440633" duration="2659000" />
+      <workItem from="1609337440079" duration="2630000" />
     </task>
+    <task id="LOCAL-00001" summary="测试 git 提交">
+      <created>1609339874880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609339874880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:I:/springcloud-eureka/microservice-consumer-movie" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+        <option value="2" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试 git 提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试 git 提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="180" key="#Docker" timestamp="1608302605373">
@@ -475,10 +681,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="285" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608296823183" />
+    <state x="476" y="113" key="CommitChangelistDialog2" timestamp="1609339873019">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="476" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609339873019" />
     <state width="957" height="466" key="DebuggerActiveHint" timestamp="1608807549222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="957" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1608807549222" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1609339949684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609339949684" />
     <state x="694" y="283" key="EnvironmentVariablesDialog" timestamp="1608283211634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -547,6 +761,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="151" width="1302" height="847" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608785159419" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1609339879547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609339879547" />
+    <state x="513" y="174" key="VcsDiffUtil.ChangesDialog" timestamp="1609339575978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="513" y="174" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609339575978" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1608807549219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -559,6 +781,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="188" width="759" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609170647557" />
+    <state x="749" y="321" key="git4idea.merge.GitMergeDialog" timestamp="1609339762779">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="749" y="321" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609339762779" />
+    <state x="653" y="321" key="git4idea.merge.GitPullDialog" timestamp="1609339414497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="653" y="321" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609339414497" />
+    <state x="769" y="397" key="git4idea.rebase.GitRebaseDialog" timestamp="1609339288723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="397" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609339288723" />
     <state x="330" y="223" key="new project wizard" timestamp="1608377500276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

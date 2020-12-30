@@ -1,9 +1,0 @@
-{
-  "groups": [],
-  "properties": [{
-    "name": "spring.session.timeout",
-    "type": "java.lang.String",
-    "description": "Description for spring.session.timeout."
-  }],
-  "hints": []
-}
