@@ -1,8 +1,10 @@
 server:
   port: 8000
+  tomcat:
+    max-threads: 10000
+    max-connections: 500
+    min-spare-threads: 200
 spring:
-  profiles:
-    active: dev
   datasource:
     # 驱动不同 mysql 5  com.mysql.jdbc.Driver
     #         mysql 8  com.mysql.cj.jdbc.Driver、需要增加时区的配置serverTimezone=GMT%2B8
@@ -10,6 +12,9 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
+#    hikari:
+#      minimum-idle: 5
+#      maximum-pool-size: 10
 #logging:
 #  level:
 #    root: INFO

@@ -13,9 +13,9 @@ spring:
 #logging:
 #  level:
 #    root: INFO
-mybatis-plus:
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 global-config:
   db-config:
